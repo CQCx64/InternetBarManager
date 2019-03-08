@@ -1,0 +1,37 @@
+body{
+	color: #D5D6E2;
+	font-weight: 500;
+	font-size: 1.05em;
+	font-family: "Microsoft YaHei","宋体","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif, FreeSans, Arimo;
+}
+a{color: #2fa0ec;text-decoration: none;outline: none;}
+a:hover,a:focus{color:#74777b;}
+
+.title{
+	color:black;
+	padding-bottom:8px;
+	font-size:25px;
+	font-weight: bold;
+	width:100%;
+	border-bottom: 2px #65c0bb solid;
+}
+
+
+.info-img{
+	margin:2% 2%;
+	margin-right:8%;
+	width:45%;
+	height:150px;
+	float:left;
+}
+
+.info-img img{
+	height: 100%;
+	width: 100%;
+}
+
+.left-content{
+	float:right;
+	width:42%;
+	color:black;
+}

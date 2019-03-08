@@ -1,0 +1,68 @@
+	#content{
+	    background-color: #333;
+	    width: 80%;
+	    height: 400px;
+	    border: 1px solid #000000;
+	    border-radius: 6px;
+	    padding: 10px;
+	    margin-top: 4%;
+	    margin-left: auto;
+	    margin-right: auto;
+	    display: block;
+	    z-index: 5;
+	}
+	
+	.useradd{
+		font-size:18px;
+		font-weight :600;
+		color: white;
+		width:80%;
+		text-align: center;
+		margin: 0 auto;
+		
+		border-collapse:collapse;
+	}
+	
+	.useradd tr{
+		height: 80px;
+	}
+	
+	.useradd td{
+		border-bottom: 3px dotted #ddd;
+	}
+	
+	.useradd tr:last-child td{
+		border: none;
+	}
+	
+	.useradd input[type=text]{
+		color: white;
+		height: 22px;
+		border: 1px solid #575757;
+	    border-radius: 4px;
+	    padding-left: 5px;
+	    background-color: #575757
+	}
+	
+	.useradd input[type=text]:hover{
+	    border: 1px solid #4CAF50;
+	}
+	
+	.useradd input[type=text]:focus{
+	    border: 1px solid #4CAF50;
+		box-shadow:0px 0px 5px #4CAF50;
+	}
+	
+	.useradd-button{
+		width: 150px;
+		height: 30px;
+		font-size: 16px;
+		color: white;
+		background-color: #4CAF50;
+		border: 1px solid #4CAF50;
+		border-radius: 3px;
+	}
+	
+	.useradd-button:hover{
+		background-color: #59b75e;
+	}
